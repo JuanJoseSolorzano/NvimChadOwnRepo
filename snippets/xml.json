@@ -1,0 +1,42 @@
+{
+    "Insert vvmal feature cbd":{
+        "prefix": "setcbd",
+        "body": [
+        "<FileDefinition>",
+    		"   <FileName>${1:filename}.c</FileName>",
+    		"   <Comment>vvmal_framework</Comment>",
+    		"   <FilePath></FilePath>",
+    		"   <isDisabled>false</isDisabled>",
+    		"</FileDefinition>",
+        "<FileDefinition>",
+    		"   <FileName>${1:filename}.h</FileName>",
+    		"   <Comment>vvmal_framework</Comment>",
+    		"   <FilePath></FilePath>",
+    		"   <isDisabled>false</isDisabled>",
+    		"</FileDefinition>"
+        ]
+      },
+      "Insert vvmal feature cbd_2":{
+        "prefix": "setfeature",
+        "body": [
+        "<FileDefinition>",
+    		"   <FileName>${1:filename}.c</FileName>",
+    		"   <Comment>vvmal_feature</Comment>",
+    		"   <FilePath></FilePath>",
+    		"   <isDisabled>false</isDisabled>",
+    		"</FileDefinition>",
+        "<FileDefinition>",
+    		"   <FileName>${1:filename}.h</FileName>",
+    		"   <Comment>vvmal_feature</Comment>",
+    		"   <FilePath></FilePath>",
+    		"   <isDisabled>false</isDisabled>",
+    		"</FileDefinition>",
+        "<FileDefinition>",
+    		"   <FileName>${1:filename}.grl</FileName>",
+    		"   <Comment>vvmal_feature</Comment>",
+    		"   <FilePath></FilePath>",
+    		"   <isDisabled>false</isDisabled>",
+    		"</FileDefinition>"
+        ]
+    }
+}
